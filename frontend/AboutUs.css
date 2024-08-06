@@ -1,0 +1,51 @@
+/* src/pages/aboutpage/about.styles.css */
+.about-us-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: rgb(176, 248, 138);
+}
+
+.about-us-content {
+    grid-column: 1 / 2;
+}
+
+.about-us-image {
+    grid-column: 2 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-us-section h1, .about-us-section h2 {
+    color: #333;
+}
+
+.about-us-section p, .about-us-section ul {
+    color: #666;
+    line-height: 1.6;
+}
+
+.about-us-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.contact-us {
+    grid-column: 1 / 3;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-us p {
+    margin: 5px 0;
+}
