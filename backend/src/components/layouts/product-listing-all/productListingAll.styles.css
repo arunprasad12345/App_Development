@@ -1,0 +1,20 @@
+.product-listing-all-container{
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    background-color: rgb(251, 245, 245);/* Set your desired color here */
+   
+    
+    
+    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 6rem;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+}

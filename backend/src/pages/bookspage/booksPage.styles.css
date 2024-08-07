@@ -1,0 +1,13 @@
+.search-container{
+    width: 100%;
+    margin: auto;
+    padding-top: 5%;
+    /* background-color:   rgb(252, 252, 252); */
+    background-color: rgb(251, 245, 245)
+    /* margin-left: 400px; */
+}
+
+.search-container h2{
+    text-align: center;
+    padding-bottom: 1rem;
+}
